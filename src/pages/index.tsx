@@ -5,6 +5,8 @@ type Props = {
   title: string
 }
 
+const name = 'asdasd'
+
 export default function Home({ title = 'React Avançado!' }: Props) {
   return (
     <div className={styles.container}>
@@ -15,7 +17,7 @@ export default function Home({ title = 'React Avançado!' }: Props) {
 
       <main className={styles.main}>
         <h1>{title}</h1>
-       
+
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
